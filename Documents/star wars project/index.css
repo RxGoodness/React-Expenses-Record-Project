@@ -1,0 +1,61 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background: url('/myimages/star\ war\ background.jpeg') no-repeat center center/cover;
+}
+
+p{font: 20px sans-serif;
+color:#fff;;}
+.container {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.character-data {
+    margin: 10px;
+}
+.container img {
+    
+    width: 250px;
+    height: 250px;
+    margin-bottom: 2rem;
+}
+
+.head {
+    padding: 2rem 0;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+}
+
+.details p {
+    color: #fff;
+    padding-bottom: 1rem;
+    font-size: 18px;
+    width: 100px;
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 5rem;
+}
+
+.info {
+    display:none;
+}
+
+.open {
+    display: block;
+}
+.star-char img {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 2rem;
+    }
+
